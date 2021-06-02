@@ -36,8 +36,9 @@ for k,v in pairs(s) do
   while string.len(t) < 80 do
     t = "0" .. t
   end
+  t = string.sub(t, string.len(t) - 79, string.len(t))
   s[k] = t
 end
 
 print(c('7'))
-print(s['a'])
+print(s[' '])
