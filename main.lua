@@ -38,6 +38,6 @@ for k,v in pairs(s) do
   end
   s[k] = t
 end
---print(b2(15))
+
 print(c('7'))
 print(s['a'])
